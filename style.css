@@ -215,3 +215,14 @@ footer a:link, footer a:visited {
 	width: 148px; 
 	height: 110px;
 	}
+
+@media (max-width: 768px){
+    .page-wrapper{
+        padding: 10px;
+    }
+
+    .sidebar{
+        position: static;
+        margin: 20px 0;
+    }
+}    
