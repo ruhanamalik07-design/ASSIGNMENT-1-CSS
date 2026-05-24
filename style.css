@@ -25,8 +25,9 @@ body {
 	padding: 20px;
 	}
 p { 
-	margin-top: 0; 
-	text-align: justify;
+	 font-size: clamp(1rem, 2vw, 1.2rem);
+    max-width: 70ch;
+    margin-bottom: 15px;
 	}
 h3 { 
 	font: italic normal 1.4em georgia, sans-serif;
